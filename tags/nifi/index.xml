@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nifi on Hawko&#39;s Blog</title>
+    <link>https://hawko2600.github.io/tags/nifi/</link>
+    <description>Recent content in nifi on Hawko&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Aug 2022 16:19:16 +1000</lastBuildDate><atom:link href="https://hawko2600.github.io/tags/nifi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nifi</title>
+      <link>https://hawko2600.github.io/nifi/</link>
+      <pubDate>Thu, 11 Aug 2022 16:19:16 +1000</pubDate>
+      
+      <guid>https://hawko2600.github.io/nifi/</guid>
+      <description>Chapter 2 Apache NiFi  NiFi Homepage Github Repo Issues  graph LR; A[ListenTCP] --|success| B(Process Events) B --|queue| C{QueryResults} C --|One| D[InvokeHTTP] C --|Two| E[PutFile]  NiFi is fairly resilient but if you skimp on compute cores or disk IO you will suffer with long queues and high latency.
+  </description>
+    </item>
+    
+  </channel>
+</rss>

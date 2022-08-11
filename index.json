@@ -7,6 +7,27 @@
 	"content": "Chapter 1 Docker archive An archive of things I need to remember about Docker.\n Docker Run Cheatsheet  A collection of \u0026lsquo;docker run\u0026rsquo; examples for starting containers\n   "
 },
 {
+	"uri": "https://hawko2600.github.io/nifi/",
+	"title": "Apache Nifi",
+	"tags": ["nifi"],
+	"description": "",
+	"content": "Chapter 2 Apache NiFi  NiFi Homepage Github Repo Issues  graph LR; A[ListenTCP] --|success| B(Process Events) B --|queue| C{QueryResults} C --|One| D[InvokeHTTP] C --|Two| E[PutFile]  NiFi is fairly resilient but if you skimp on compute cores or disk IO you will suffer with long queues and high latency.\n  "
+},
+{
+	"uri": "https://hawko2600.github.io/tags/nifi/",
+	"title": "nifi",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://hawko2600.github.io/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "https://hawko2600.github.io/",
 	"title": "Hawko&#39;s Blog",
 	"tags": [],
@@ -26,13 +47,6 @@
 	"tags": ["docker"],
 	"description": "",
 	"content": "I can never remember how to start these things properly Splunk Enterprise docker run -d -p 8000:8000 -e \u0026#34;SPLUNK_START_ARGS=--accept-license\u0026#34; -e \u0026#34;SPLUNK_PASSWORD=\u0026lt;password\u0026gt;\u0026#34; --name splunk splunk/splunk:latest  https://splunk.github.io/docker-splunk/ADVANCED.html  Splunk Universal Forwarder docker run -d -p 9997:9997 -e \u0026#34;SPLUNK_START_ARGS=--accept-license\u0026#34; -e \u0026#34;SPLUNK_PASSWORD=\u0026lt;password\u0026gt;\u0026#34; --name uf splunk/universalforwarder:latest To access the UF container, do this:\ndocker exec -it -u splunk uf /bin/bash -c \u0026#34;/opt/splunkforwarder/bin/splunk status\u0026#34; "
-},
-{
-	"uri": "https://hawko2600.github.io/tags/",
-	"title": "Tags",
-	"tags": [],
-	"description": "",
-	"content": ""
 },
 {
 	"uri": "https://hawko2600.github.io/categories/",

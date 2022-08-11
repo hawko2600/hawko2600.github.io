@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Hawko&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Aug 2022 13:17:17 +1000</lastBuildDate><atom:link href="https://hawko2600.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Aug 2022 16:19:16 +1000</lastBuildDate><atom:link href="https://hawko2600.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nifi</title>
+      <link>https://hawko2600.github.io/tags/nifi/</link>
+      <pubDate>Thu, 11 Aug 2022 16:19:16 +1000</pubDate>
+      
+      <guid>https://hawko2600.github.io/tags/nifi/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>docker</title>
       <link>https://hawko2600.github.io/tags/docker/</link>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apache Nifi on Hawko&#39;s Blog</title>
+    <link>https://hawko2600.github.io/nifi/</link>
+    <description>Recent content in Apache Nifi on Hawko&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Aug 2022 16:19:16 +1000</lastBuildDate><atom:link href="https://hawko2600.github.io/nifi/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
