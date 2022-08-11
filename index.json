@@ -1,0 +1,43 @@
+[
+{
+	"uri": "https://hawko2600.github.io/docker/",
+	"title": "Docker",
+	"tags": ["docker"],
+	"description": "",
+	"content": "Chapter 1 Docker archive An archive of things I need to remember about Docker.\n Docker Run Cheatsheet  A collection of \u0026lsquo;docker run\u0026rsquo; examples for starting containers\n   "
+},
+{
+	"uri": "https://hawko2600.github.io/",
+	"title": "Hawko&#39;s Blog",
+	"tags": [],
+	"description": "",
+	"content": "Welcome Welcome to my blog. I just need to dump things out of my head and keep them somewhere semi-permanent so when I change employer or lose a hard drive I don\u0026rsquo;t lose this information.\n"
+},
+{
+	"uri": "https://hawko2600.github.io/tags/docker/",
+	"title": "docker",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://hawko2600.github.io/docker/docker-run-cheatsheet/",
+	"title": "Docker Run Cheatsheet",
+	"tags": ["docker"],
+	"description": "",
+	"content": "I can never remember how to start these things properly Splunk Enterprise docker run -d -p 8000:8000 -e \u0026#34;SPLUNK_START_ARGS=--accept-license\u0026#34; -e \u0026#34;SPLUNK_PASSWORD=\u0026lt;password\u0026gt;\u0026#34; --name splunk splunk/splunk:latest  https://splunk.github.io/docker-splunk/ADVANCED.html  Splunk Universal Forwarder docker run -d -p 9997:9997 -e \u0026#34;SPLUNK_START_ARGS=--accept-license\u0026#34; -e \u0026#34;SPLUNK_PASSWORD=\u0026lt;password\u0026gt;\u0026#34; --name uf splunk/universalforwarder:latest To access the UF container, do this:\ndocker exec -it -u splunk uf /bin/bash -c \u0026#34;/opt/splunkforwarder/bin/splunk status\u0026#34; "
+},
+{
+	"uri": "https://hawko2600.github.io/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://hawko2600.github.io/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
